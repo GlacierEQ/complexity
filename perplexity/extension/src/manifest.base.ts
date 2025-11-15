@@ -22,6 +22,8 @@ export const baseManifest: ManifestV3Options = {
   },
   action: {
     default_icon: "public/img/logo-48.png",
+    default_popup: "src/entrypoints/popup/popup.html",
+    default_title: "Complexity - Quick Access"
   },
   options_ui: {
     open_in_tab: true,
